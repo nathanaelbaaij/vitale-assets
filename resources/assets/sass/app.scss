@@ -1,0 +1,18 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+// Variables
+@import "variables";
+
+ul.pagination {
+  margin: 0 !important;
+}
+
+// fixes last td in tables with auto width
+tr {
+  td {
+    &:last-child {
+      width: 1px;
+      white-space: nowrap;
+    }
+  }
+}

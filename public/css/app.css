@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+@font-face {
+    font-family: 'vitaleassets';
+    src:  url('../fonts/vitaleassets.eot?hx544s');
+    src:  url('../fonts/vitaleassets.eot?hx544s#iefix') format('embedded-opentype'),
+    url('../fonts/vitaleassets.ttf?hx544s') format('truetype'),
+    url('../fonts/vitaleassets.woff?hx544s') format('woff'),
+    url('../fonts/vitaleassets.svg?hx544s#vitaleassets') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.va-icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'vitaleassets' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* remove google chrome outline */
+*:focus {
+    outline: none !important;
+}
+
+ul.pagination {
+    margin: 0 !important;
+}
+
+td .label {
+    margin-right: 5px;
+}
+
+tr td:last-child {
+    width: 1px !important;
+    white-space: nowrap;
+}
+
+.container {
+    width: inherit !important;
+}
+
+/* Asset.show, Asset.create, Asset.edit, Asset.delete */
+.map {
+    height: 426px;
+    width: 100%;
+    position: relative;
+}
+
+.map .alert {
+    position: absolute;
+    top: .5em;
+    right: .5em;
+    z-index: 10;
+    left: .5em;
+}
+
+.btn-group-map {
+    position: absolute;
+    bottom: .5em;
+    left: .5em;
+    z-index: 10;
+}
+
+label.required:after {
+    content: '*';
+    color: red;
+    line-height: 1;
+    vertical-align: middle;
+    margin: 0 0 0 .2em;
+}
+
+.required-msg {
+    font-size: 11px;
+    line-height: 1.9;
+}
+
+.required-msg i {
+    font-size: .8em;
+    color: red;
+}

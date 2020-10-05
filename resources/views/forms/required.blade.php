@@ -1,0 +1,1 @@
+<span class="pull-right required-msg text-muted"><i class="fa fa-asterisk" aria-hidden="true"></i> Deze velden zijn verplicht</span>

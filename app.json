@@ -1,0 +1,25 @@
+{
+  "name": "vitale_assets",
+  "scripts": {
+    "postdeploy" : "php artisan db:seed --force"
+  },
+  "env": {
+    "APP_KEY" : "base64:d1NPYBotJFVFE9wXL3iAbIokp6T5F/hgPt3gM4QRizY=",
+    "APP_ENV" : "staging"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
